@@ -103,7 +103,8 @@
     padding: 32px;
     position: relative;
     margin: 16px; /* Add margin between pricing tables */
-    flex: 1 0 300px; /* Allow the table to grow, but not shrink below 300px */
+    flex: 1 0 300px;
+    border-radius: 20px; /* Allow the table to grow, but not shrink below 300px */
 }
 
 @media screen and (max-width: 500px) {

@@ -1,24 +1,49 @@
-import { Component } from 'react';
-import { Link } from 'react-router-dom';
+import React, { Component } from 'react';
 import './Navbar.css';
-import { MenuItems } from './MenuItems';
 import logo from '../navbar/master-logo.png';
 import ReactGA from 'react-ga4';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 
-//   const navigasi = () => {
-//   ReactGA.event({
-//     action: 'Click',
-//     category: 'Button Navbar',
-//     label: {itemcName},
-//   })
-// };
+// Define MenuItems here or import it from the appropriate location
+const MenuItems = [
+  {
+    title: 'Home',
+    url: '/',
+    cName: 'nav-links',
+    active: false,
+  },{
+    title: 'Program',
+    url: '/Program',
+    cName: 'nav-links',
+    active: false,
+  },
+  {
+    title: 'Blog',
+    url: 'https://blog-mardika.netlify.app',
+    cName: 'nav-links',
+    active: false,
+    external: true,
+  },
+  // ... other menu items
+];
 
 class Navbar extends Component {
-  // onclick state for responsive navbar
   state = { clicked: false };
+
   handleClick = () => {
     this.setState({ clicked: !this.state.clicked });
   };
+
+  handleExternalLinkClick = (url, label) => {
+    ReactGA.event({
+      action: 'Click',
+      category: 'Button Navbar',
+      label,
+    });
+
+    window.location.href = url;
+  };
+
   render() {
     return (
       <nav className="NavbarItems">
@@ -32,26 +57,24 @@ class Navbar extends Component {
 
         <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
           {MenuItems.map((item, index) => {
-            //mapping indexes from menuitems
             return (
-              <li
-                onClick={() => {
-                  ReactGA.event({
-                    action: 'Click',
-                    category: 'Button Navbar',
-                    label: `${item.title}`,
-                  });
-                }}
-                key={index}
-              >
-                <Link className={item.cName} to={item.url}>
-                  {item.title}
-                </Link>
+              <li key={index}>
+                {item.external ? (
+                  <a
+                    className={item.cName}
+                    href={item.url}
+                    onClick={() => this.handleExternalLinkClick(item.url, item.title)}
+                  >
+                    {item.title}
+                  </a>
+                ) : (
+                  <Link className={item.cName} to={item.url}>
+                    {item.title}
+                  </Link>
+                )}
               </li>
             );
           })}
-
-          {/* <button className="Signbtn">Sign Up</button> */}
         </ul>
       </nav>
     );
