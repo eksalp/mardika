@@ -69,7 +69,7 @@ function Freeprogram() {
             </div>
             <div className="card-bottom">
               <h5 className='judultanggal'>📅 Tanggal : {item.tanggal}</h5>
-              <a href={item.link}><button className='tombol'>Daftar</button></a>
+              <div className='buttondaftar'><a href={item.link}><button className='tombol'>Daftar</button></a></div>
             </div>
           </div>
         ))}

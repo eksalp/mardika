@@ -68,7 +68,7 @@ function TrialProgram() {
             </div>
             <div className="card-bottom">
               <h5 className='judultanggal'>📅 Tanggal : {item.tanggal}</h5>
-              <a href={item.link}><button className='tombolk'>Daftar</button></a>
+              <div className='buttondaftar'><a href={item.link}><button className='tombolk'>Daftar</button></a></div>
               <span className="category">{item.category}</span>
             </div>
           </div>

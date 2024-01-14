@@ -43,8 +43,13 @@
   background-color: #e5d489;
   color: #024aad;
   border-radius: 10px;
-  margin-left: 100px ;
-  margin-top: 15px;
+}
+
+.buttondaftar {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .slick-slide > div {
