@@ -1,13 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-
 import './App.css';
 import { dataFree } from './data';
 
 function Freeprogram() {
-  const [defaultImage, setDefaultImage] = useState({});
   const settings = {
     dots: true,
     infinite: false,
@@ -43,28 +41,15 @@ function Freeprogram() {
     ],
   };
 
-  const handleErrorImage = (data) => {
-    setDefaultImage((prev) => ({
-      ...prev,
-      [data.target.alt]: data.target.alt,
-    }));
-  };
-
   return (
     <div className="Apps">
       <Slider {...settings}>
         {dataFree.map((item) => (
           <div className="card">
             <div className="card-top">
-              <img
-                src={
-                  defaultImage[item.title] === item.title
-                    ? defaultImage.linkDefault
-                    : item.linkImg
-                }
-                alt={item.title}
-                onError={handleErrorImage}
-              />
+                <img
+                src= {item.linkImg}
+                alt={item.title}/>
               <h1 className='judulcard'>{item.title}</h1>
             </div>
             <div className="card-bottom">

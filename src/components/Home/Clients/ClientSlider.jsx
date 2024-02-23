@@ -1,23 +1,31 @@
 import React from 'react'
 import styled from 'styled-components'
-import {IoIosQuote} from "react-icons/io";
+import './clients.css';
+// import {IoIosQuote} from "react-icons/io";
 // import {AiOutlineStar} from "react-icons/ai";
 
 const ClientSlider = (props) => {
-    const {name, position, img_url, disc} = props.item;
+    const {title, name, position, img_url, disc, gambar1, gambar2, gambar3, gambar4 } = props.item;
   return (
     <Container>
         <Header>
-            <span className='quote'><IoIosQuote/></span>
+            <h1 className='title'>{title}</h1>
         </Header>
         <Body>
             {disc}
         </Body>
         <Footer>
-            <img src={img_url} alt={name} />
+            <img className='gambarorang' src={img_url} alt={name} />
             <div className="details">
                 <h1>{name}</h1>
-                <p>{position}</p>
+                <p className='position'>{position}</p>
+                <div className='gambarlembaga'>
+                <img className='img gambarr' src={gambar1} alt="poto" /> 
+                <img className='img gambarr' src={gambar2} alt="poto" />
+                <img className=' img gambarr' src={gambar3} alt="poto" />
+                <img className='gambarr' src={gambar4} alt="poto" />
+                </div>
+                
             </div>
         </Footer>
     </Container>
@@ -48,9 +56,9 @@ const Header = styled.div`
     }
 `
 const Body = styled.p`
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     margin-bottom: 1.5rem;
-    color: #432284;
+    color: #004AAD;
     text-align: justify;
 `
 const Footer = styled.div`
@@ -58,8 +66,6 @@ const Footer = styled.div`
     align-items: center;
     gap: 1rem;
     img{
-        width: 4rem;
-        height: 4rem;
         border-radius: 50px;
         object-fit: cover;
     }
@@ -78,7 +84,7 @@ const Footer = styled.div`
 
     p{
         font-size: 0.8rem;
-        color: black;
+        color: #BD4800;
         @media(max-width: 538px){
             font-size: 0.6rem;
         }

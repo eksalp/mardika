@@ -1,70 +1,18 @@
+import free4nov from "./asetfree/free4nov.png";
+import free5nov from "./asetfree/home.png"
 export const dataFree = [
 {
   id: 1,
   title: 'Bahas tuntas tips lolos Astra bersama Kak Nindy',
-  tanggal: '29 Januari 2024',
-  link: "",
-  linkImg:
-    'https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_300/v1/ncom/en_US/games/switch/c/cuphead-switch/hero?_a=AJADJWI0',
+  tanggal: '4 November 2023',
+  link: "https://drive.google.com/uc?export=view&id=1tGz5N-St74Y7uob-eVHNoJiL2lyMRg0l",
+  linkImg: free4nov
 },
-
 {
   id: 2,
-  title: 'Bahas tuntas tips lolos Astra bersama Kak Nindy',
-  tanggal: '29 Januari 2024',
-  link: "",
-  linkImg:
-    'https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_300/v1/ncom/en_US/games/switch/c/cuphead-switch/hero?_a=AJADJWI0',
+  title: 'Beas tips lolos Asewmewtra bersama Kak Nindy',
+  tanggal: '4 November 2023',
+  link: "https://drive.google.com/uc?export=view&id=1tGz5N-St74Y7uob-eVHNoJiL2lyMRg0l",
+  linkImg: free5nov
 },
-{
-  id: 3,
-  title: 'Bahas tuntas tips lolos Astra bersama Kak Nindy',
-  tanggal: '29 Januari 2024',
-  link: "",
-  linkImg:
-    'https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_300/v1/ncom/en_US/games/switch/c/cuphead-switch/hero?_a=AJADJWI0',
-},
-{
-  id: 4,
-  title: 'Bahas tuntas tips lolos Astra bersama Kak Nindy',
-  tanggal: '29 Januari 2024',
-  link: "",
-  linkImg:
-    'https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_300/v1/ncom/en_US/games/switch/c/cuphead-switch/hero?_a=AJADJWI0',
-},
-{
-  id: 5,
-  title: 'Bahas tuntas tips lolos Astra bersama Kak Nindy',
-  tanggal: '29 Januari 2024',
-  link: "",
-  linkImg:
-    'https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_300/v1/ncom/en_US/games/switch/c/cuphead-switch/hero?_a=AJADJWI0',
-},
-{
-  id: 6,
-  title: 'Bahas tuntas tips lolos Astra bersama Kak Nindy',
-  tanggal: '29 Januari 2024',
-  link: "",
-  linkImg:
-    'https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_300/v1/ncom/en_US/games/switch/c/cuphead-switch/hero?_a=AJADJWI0',
-},
-{
-  id: 7,
-  title: 'Bahas tuntas tips lolos Astra bersama Kak Nindy',
-  tanggal: '29 Januari 2024',
-  link: "",
-  linkImg:
-    'https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_300/v1/ncom/en_US/games/switch/c/cuphead-switch/hero?_a=AJADJWI0',
-},
-{
-  id: 8,
-  title: 'Bahas tuntas tips lolos Astra bersama Kak Nindy',
-  tanggal: '29 Januari 2024',
-  link: "",
-  linkImg:
-    'https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_300/v1/ncom/en_US/games/switch/c/cuphead-switch/hero?_a=AJADJWI0',
-},
-
-
-
 ];

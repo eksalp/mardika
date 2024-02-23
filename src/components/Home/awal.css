@@ -417,6 +417,10 @@
   text-align: center;
   font-size: 20px;
 }
+
+.karosel {
+  margin-top: 20px;
+}
 @media screen and (max-width: 992px) {
   .wrapperbanner {
     margin: 12px;

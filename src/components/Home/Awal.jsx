@@ -1,7 +1,7 @@
 import React from 'react';
 import './awal.css';
 import Clients from './Clients/Clients';
-import banner from './banner.png'
+import Carousel from './Carousel';
 
 const Awal = () => {
   return (
@@ -20,8 +20,11 @@ const Awal = () => {
         </div>
       </div>
 
+      <div className='karosel'>
+        <Carousel/>
+      </div>
       
-      <img className='wrapperbanner' src={banner} alt="" />
+
       <div className='isihome'>
       <h6 className='h6'>"Berangkat dari kepedulian mahasiswa dan mendukung program Merdeka Belajar Kampus Merdeka, Mardika menjadi teman untuk tumbuh dan berkembang menuju mahasiswa yang merdeka."</h6>
       </div>
