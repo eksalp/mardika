@@ -41,8 +41,6 @@ let clients = [
         img_url : foto1,
         gambar1 : gambar1,
         gambar2 : gambar2,
-        gambar3 : "",
-        gambar4 : "",
         disc : `“Di semester 6 ini, aku butuh banget pengalaman magang, setelah semester lalu daftar PMM dan MSIB tapi belum lolos semua akhirnya nyoba lagi di semester ini langsung lolos dua-duanya berkat Mardika, terharuuu!” `
     },
     {
@@ -63,8 +61,6 @@ let clients = [
         img_url : foto3,
         gambar1 : gambar7,
         gambar2 : gambar8,
-        gambar3 : "",
-        gambar4 : "",
         disc : `“Keputusan terbaik yang aku ambil di 2023 adalah daftar dan join mentoring MSIB dari Mardika. Semuanya jelas mulai alur pendaftaran, strategi milih mitra, sampe tips dan trik buatt interview!!. Thank you so much Mardika tanpa kamu aku mungkin ga bisa di titik ini dan diterima 2 mitra sekaligus :^”`
     },
     {
@@ -74,8 +70,6 @@ let clients = [
         img_url : foto4,
         gambar1 : gambar9,
         gambar2 : gambar10,
-        gambar3 : "",
-        gambar4 : "",
         disc : `“Setelah konsultasi dengan mentor mengenai dua pilihan mitra. Aku mantab ambil pelindo di bagian audit yang relevan sama jurusan, Terima Kasih Mardika dan Kaka Mentor.”`
     },
     {
@@ -84,9 +78,6 @@ let clients = [
         position : "Offering di Nutrifood-Lokalate ",
         img_url : foto5,
         gambar1 : gambar11,
-        gambar2 : "",
-        gambar3 : "",
-        gambar4 : "",
         disc : `“Throughout mentoring under Mardika guidance, I succeeded in creating a well-structured CV and Portfolio, as well as applying the tips and tricks provided in order to excel in the MSIB Kampus Merdeka selection process. Thankfully, I am qualified at various companies and decided to accept an offer from PT Nutrifood Indonesia. I am so grateful for the invaluable knowledge shared, thanks a lot, Mardika”`
     },
     {
@@ -95,9 +86,6 @@ let clients = [
         position : "Offering di DPR-RI",
         img_url : foto6,
         gambar1 : gambar12,
-        gambar2 : "",
-        gambar3 : "",
-        gambar4 : "",
         disc : `“Terima kasih Mardika dan mentor, untuk bimbingan diskusi dan review cv sehingga saya bisa lolos di SETJEN DPR RI  semoga mahardika tetap menjadi platform mentoring untuk kampus merdeka kedepannya.”`
     },
     {
@@ -106,9 +94,6 @@ let clients = [
         position : "Offering di BTPN Syariah",
         img_url : foto7,
         gambar1 : gambar13,
-        gambar2 : "",
-        gambar3 : "",
-        gambar4 : "",
         disc : `“Berkat ikut kelas mentoring  Mardika, saya bisa lolos di mitra yang se linier dengan jurusan saya, trimakasih telah me mentoring saya dari membuat CV, simulasi interview dan FGD, semoga kedepannya bisa mentoring mahasiswa yang ingin magang khusus nya di MSIB”`
     },
     {
@@ -118,8 +103,6 @@ let clients = [
         img_url : foto8,
         gambar1 : gambar14,
         gambar2 : gambar15,
-        gambar3 : "",
-        gambar4 : "",
         disc : `“Setelah direview essay aku berhasil lolos jadi Awardee BU 2023 dan posisi waktu itu juga lolos Pertukaran Mahasiswa Merdeka  3 di Politeknik Negeri Jakarta. Terima Kasih mentor.”`
     },
     {
@@ -128,9 +111,6 @@ let clients = [
         position : "Awardee Pertukaran Mahasiswa Merdeka 3 Universitas Udayana",
         img_url : foto9,
         gambar1 : gambar16,
-        gambar2 : "",
-        gambar3 : "",
-        gambar4 : "",
         disc : `“Hi aku Bayu, alumni PMM 3 Inbound Universitas Udayana.  Di awal tahun 2023, tidak ada sedikitpun terbenak bisa ngerasain kuliah di Bali. Mentor dengan telaten dan sabar ngebantu aku dan temen-temen pendaftar dari pemberkasan sampe pengumuman. Dengan gabung grup mentoring aku ngrasa punya temen seperjuangan.. Thank you Mardika sudah membuat wadah untuk sama-sama berkembang dan berproses menjadi lebih ser! It was so worth the wait!”`
     },
     {
@@ -139,9 +119,6 @@ let clients = [
         position : "Awardee Pertukaran Mahasiswa Merdeka 4 Universitas Jember",
         img_url : foto10,
         gambar1 : gambar17,
-        gambar2 : "",
-        gambar3 : "",
-        gambar4 : "",
         disc : `“Kenalin, aku Irma. alasan aku ikut pmm salah stunya adalah pengen ke bromo, tapi  waktu tahap seleksi bingung+ga punya bayangan buat tes kebinekhaan sampe akhirnya ketemu Mardika dan alhamdulillah lolos pilihan 1.” `
     },
     {
@@ -150,9 +127,6 @@ let clients = [
         position : "Awardee Pertukaran Mahasiswa Merdeka 3 Universitas Padjajaran ",
         img_url : foto11,
         gambar1 : gambar18,
-        gambar2 : "",
-        gambar3 : "",
-        gambar4 : "",
         disc : `“Dari awal gabung mentoring udah dapet tips & trik sampe simulasi surbin. Asa berhasil dapetin Unpad sebagai tempat untuk bertumbuh sementara selama 1 semester yang bermakna selamanya.”`
     },
 ]
