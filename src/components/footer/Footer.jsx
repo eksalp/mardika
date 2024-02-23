@@ -22,10 +22,10 @@ const Footer = () => {
 
         <div class="box__footer r">
           <h4 className='warnakuning'>Jelajah</h4>
-          <a href="">
+          <a href="https://www.google.com/">
             <p className="p sizee">Panduan Pendaftaran</p>
           </a>
-          <a href="">
+          <a href="https://www.google.com/">
             <p className="p sizee">Panduan Pembayaran</p>
           </a>
         </div>
