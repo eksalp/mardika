@@ -1,9 +1,9 @@
 :root {
-    --dark-blue: #023047;
-    --green: #06D6A0;
-    --yellow: #FFD166;
-    --light-color: #F1FAEE;
-    --pink: #EF476F;
+  --dark-blue: #023047;
+  --green: #06d6a0;
+  --yellow: #ffd166;
+  --light-color: #f1faee;
+  --pink: #ef476f;
 }
 
 .judulmentoring {
@@ -13,219 +13,293 @@
   border-radius: 15px;
   padding: 4px 3px;
   color: white;
-  background-color: #BD4800;
+  background-color: #bd4800;
+}
+
+.mentoring1 {
+  padding: 20px;
+}
+
+.containermentoring {
+  display: flex;
+  padding: 100px;
+}
+
+.section1 {
+  flex: 1; /* Bagian atas akan mengambil ruang yang tersedia */
+  color: #0030c0;
+}
+
+.section2 {
+  display: flex;
+  flex: 1; /* Bagian bawah akan mengambil ruang yang tersedia */
+  justify-content: center;
+  align-items: center;
+  color: #0030c0;
+}
+
+.tomboldaftar {
+  padding: 10px;
+  color: white;
+  background-color: #bd4800;
+  border-radius: 10px;
+}
+
+/* Media query untuk layar kecil (ponsel) */
+@media screen and (max-width: 480px) {
+  .containermentoring {
+    display: block;
+    padding: 25px;
+  }
+
+  .section1 {
+    font-size: 10px;
+  }
+
+  .mentoringa {
+    font-size: 17px;
+    padding: 2px;
+  }
+
+  .mentoringb {
+    font-size: 17px;
+  }
+
+  .tomboldaftar {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .section2 {
+    margin-top: 34px;
+  }
+}
+
+/* Media query untuk layar sedang (tablet) */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .containermentoring {
+    padding: 39px;
+  }
+
+  .mentoringa {
+    font-size: 20px;
+  }
+
+  .mentoringb {
+    font-size: 20px;
+  }
+
+  .bd1 {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width: 1200px) {
-    .Apps {
-      width: 77%;
-    }
-    .judulmentoring {
-      margin-right: 110px;
-      margin-left: 20px;
-      border-radius: 10px;
-      padding: 4px 3px;
-      font-size: 17px;
-    }
+  .Apps {
+    width: 77%;
   }
+  .judulmentoring {
+    margin-right: 110px;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding: 4px 3px;
+    font-size: 17px;
+  }
+}
+
 .pricing-table-container .pricing-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .pricing-table-container h2 {
-    margin-right: 32px;
-    font-size: 24px;
+  margin-right: 32px;
+  font-size: 24px;
 }
 
 .pricing-table-container .plans-switch {
-    width: 250px;
-    background: #023047;
-    height: 55px;
-    appearance: none;
-    border-radius: 24px;
-    outline: none;
-    cursor: pointer;
-    position: relative;
+  width: 250px;
+  background: #023047;
+  height: 55px;
+  appearance: none;
+  border-radius: 24px;
+  outline: none;
+  cursor: pointer;
+  position: relative;
 }
 
 .pricing-table-container .plans-switch-container {
-    position: relative;
-    color: #fff;
-    display: inline-block;
+  position: relative;
+  color: #fff;
+  display: inline-block;
 }
 
 .pricing-table-container .plans-switch-container .monthly {
-    position: absolute;
-    left: 36px;
-    top: 18px;
-    pointer-events: none;
+  position: absolute;
+  left: 36px;
+  top: 18px;
+  pointer-events: none;
 }
 
 .pricing-table-container .plans-switch-container .yearly {
-    position: absolute;
-    right: 36px;
-    top: 18px;
-    pointer-events: none;
+  position: absolute;
+  right: 36px;
+  top: 18px;
+  pointer-events: none;
 }
 
 .pricing-table-container .plans-switch::before {
-    content: "";
-    position: absolute;
-    height: 44px;
-    width: 120px;
-    border-radius: 24px;
-    background: var(--green);
-    top: 50%;
-    transform: translateY(-50%);
-    left: 6px;
-    transition: all 0.5s;
+  content: "";
+  position: absolute;
+  height: 44px;
+  width: 120px;
+  border-radius: 24px;
+  background: var(--green);
+  top: 50%;
+  transform: translateY(-50%);
+  left: 6px;
+  transition: all 0.5s;
 }
 
 .pricing-table-container .plans-switch:checked::before {
-    left: 138px;
-    width: 106px;
+  left: 138px;
+  width: 106px;
 }
 
-
 .pricing-table {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 32px;
-    flex-wrap: wrap; /* Allow flex items to wrap to the next line */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+  flex-wrap: wrap; /* Allow flex items to wrap to the next line */
 }
 
 .pricing-table .table {
-    background: var(--light-color);
-    width: 260px;
-    padding: 32px;
-    position: relative;
-    margin: 16px; /* Add margin between pricing tables */
-    flex: 1 0 300px;
-    border-radius: 20px; /* Allow the table to grow, but not shrink below 300px */
+  background: var(--light-color);
+  width: 260px;
+  padding: 32px;
+  position: relative;
+  margin: 16px; /* Add margin between pricing tables */
+  flex: 1 0 300px;
+  border-radius: 20px; /* Allow the table to grow, but not shrink below 300px */
 }
 
 @media screen and (max-width: 500px) {
-    .pricing-table .table {
-        width: 100%; /* Make tables full width on small screens */
-    }
+  .pricing-table .table {
+    width: 100%; /* Make tables full width on small screens */
+  }
 }
 
-
-
 .pricing-table h3 {
-    font-size: 24px;
-    margin-top: 0;
-    margin-bottom: 0;
-    text-align: center;
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
 }
 
 .pricing-table .price-container {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .pricing-table .price-container .price {
-    font-size: 56px;
-    font-weight: bold;
-    padding-right: 16px;
+  font-size: 56px;
+  font-weight: bold;
+  padding-right: 16px;
 }
 
 .pricing-table .description {
-    font-size: 15px;
-    color: #222;
+  font-size: 15px;
+  color: #222;
 }
 
 .pricing-table .features {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 .pricing-table .features li {
-    margin: 24px 0;
-    display: flex;
-    align-items: center;
+  margin: 24px 0;
+  display: flex;
+  align-items: center;
 }
 
 .pricing-table .features li::before {
-    content: url('images/check-icon.svg');
-    margin-right: 16px;
-    margin-top: 4px;
+  content: url("images/check-icon.svg");
+  margin-right: 16px;
+  margin-top: 4px;
 }
 
 .pricing-table a.btn {
-    background-color: #023047;
-    padding: 16px 0;
-    display: inline-block;
-    width: 100%;
-    color: #fff;
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 24px;
-    margin-top: 16px;
-    transition: all 400ms;
+  background-color: #023047;
+  padding: 16px 0;
+  display: inline-block;
+  width: 100%;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 24px;
+  margin-top: 16px;
+  transition: all 400ms;
 }
 
 .pricing-table a.btn:hover {
-    background: #022435;
+  background: #022435;
 }
 
-
 .pricing-table .table img.table-bg {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
 }
 
 .pricing-table .table .content {
-    z-index: 200;
-    position: relative;
+  z-index: 200;
+  position: relative;
 }
 
-
 .pricing-table .table.best-value {
-    background-color: #023047;
-    color: #fff;
-    border-radius: 24px;
-    width: 280px;
+  background-color: #023047;
+  color: #fff;
+  border-radius: 24px;
+  width: 280px;
 }
 
 .pricing-table .table.table.best-value .value {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    padding: 8px;
-    border-radius: 24px 24px 0 0;
-    background: var(--pink);
-    font-weight: bold;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 8px;
+  border-radius: 24px 24px 0 0;
+  background: var(--pink);
+  font-weight: bold;
 }
 
 .pricing-table .table.table.best-value .content {
-    padding-top: 32px;
+  padding-top: 32px;
 }
 
 .pricing-table .table.table.best-value .price {
-    font-size: 68px;
+  font-size: 68px;
 }
 
 .pricing-table .table.table.best-value a.btn {
-    background: var(--yellow);
-    color: #000;
-    transition: all 400ms;
+  background: var(--yellow);
+  color: #000;
+  transition: all 400ms;
 }
 
 .pricing-table .table.table.best-value a.btn:hover {
-    background: #ffe4a4;
-} 
+  background: #ffe4a4;
+}
 
 .pricing-table .table.best-value .description {
-    color: #eee;
+  color: #eee;
 }

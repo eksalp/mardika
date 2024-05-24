@@ -1,61 +1,42 @@
-import React from 'react';
-import './mentoring.css';
+import React from "react";
+import "./mentoring.css";
+import logo2 from "../Program Mentoring/images/mentoring.png";
 
-
-function MentoringProgram() {
+function ProgramPrice() {
   return (
-    <div class="pricing-table">
-            <div class="table">
-                <div class="content">
-                    <h3>Program Mentoring Beasiswa Unggulan</h3>
-                    <div class="price-container">
-                        <span class="price basic-price">Rp 20.000</span>
-                    </div>
-                    <ul class="features">
-                        <li>Ebook</li>
-                        <li>Konsultasi</li>
-                        <li>Review Essay</li>
-                        <li>Simulasi Wawancara</li>
-                    </ul>
-                    <a href="www.instagram.com" class="btn">Daftar Sekarang</a>
-                </div>
-            </div>
+    <div>
+      <div className="mentoring1">
+        <img src={logo2} alt="banner2" />
+      </div>
+      <div class="containermentoring">
+        <div class="section1">
+          <h4 className="mentoringa">Kamu akan dibekali</h4>
+          <ol className="bd1">
+            <li>Persiapan MSIB</li>
+            <li>Menulis CV ATS Friendly</li>
+            <li>Strategi memilih mitra & peluang</li>
+            <li>Rumus menjawab wawancara</li>
+            <li>Kisi-Kisi tes soal</li>
+          </ol>
 
-            <div class="table best-value">
-                <span class="value">Paling Diminati</span>
-                <div class="content">
-                    <h3>Program Mentoring Pertukaran Mahasiswa Merdeka</h3>
-                    <div class="price-container">
-                        <span class="price professional-price">Rp10.000</span>
-                    </div>
-                    <ul class="features">
-                        <li>Ebook</li>
-                        <li>Konsultasi</li>
-                        <li>Simulasi</li>
-                        <li>Tes Kebhinekaan</li>
-                    </ul>
-                    <a href="www.instagram.com" class="btn">Daftar Sekarang</a>
-                </div>    
-            </div>
-
-            <div class="table">
-                <div class="content">
-                    <h3>Program Mentoring MSIB Merdeka</h3>
-                    <div class="price-container">
-                        <span class="price business-price">Rp10.000</span>
-                    </div>
-                    <ul class="features">
-                        <li>Ebook</li>
-                        <li>Konsultasi</li>
-                        <li>Review CV</li>
-                        <li>Simulasi Assesement Test</li>
-                        <li>Simulasi Interview</li>
-                    </ul>
-                    <a href="www.instagram.com" class="btn">Daftar Sekarang</a>
-                </div>
-            </div>
+          <h4 className="mentoringa">Dengan Fasilitas</h4>
+          <ol className="bd1">
+            <li>Zoom premium 5 kali pertemuan</li>
+            <li>Grup yang kondusif</li>
+            <li>Teman yang supportif</li>
+            <li>Template konversi, CV, dan balasan chat HR</li>
+            <li>Cerita bareng alumni MSIB</li>
+          </ol>
         </div>
+        <div class="section2">
+          <div className="subsec">
+            <h2 className="mentoringb">Kuota semakin terbatas!</h2>
+            <button className="tomboldaftar">Akses Kelas Mentoring</button>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 }
 
-export default MentoringProgram;
+export default ProgramPrice;
