@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-import './trial.css';
-import { dataTrial } from './datatrial';
+import React, { useState } from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import "./trial.css";
+import { dataTrial } from "./datatrial";
 
 function TrialProgram() {
   const [defaultImage, setDefaultImage] = useState({});
@@ -64,11 +64,15 @@ function TrialProgram() {
                 alt={item.title}
                 onError={handleErrorImage}
               />
-              <h1 className='judulcard'>{item.title}</h1>
+              <h1 className="judulcard">{item.title}</h1>
             </div>
             <div className="card-bottom">
-              <h5 className='judultanggal'>📅 Tanggal : {item.tanggal}</h5>
-              <div className='buttondaftar'><a href={item.link}><button className='tombolk'>Daftar</button></a></div>
+              <h5 className="judultanggal">📅 Tanggal : {item.tanggal}</h5>
+              <div className="buttondaftar">
+                <a href={item.link}>
+                  <button className="tombolk">Akses Sekarang</button>
+                </a>
+              </div>
               <span className="category">{item.category}</span>
             </div>
           </div>

@@ -40,32 +40,117 @@ const Awal = () => {
         </h6>
       </div>
       <Clients />
+      <div className="accordion">
+        <div>
+          <h3 className="judulAccordion">Frequently Asked Questions</h3>
+        </div>
+        <div>
+          <Accordion allowToggle defaultIndex={[0]}>
+            <AccordionItem>
+              <h2>
+                <AccordionButton>
+                  <Box
+                    fontSize={20}
+                    color={"black"}
+                    as="span"
+                    flex="1"
+                    textAlign="justify"
+                  >
+                    Pertemuan diadakan secara online/offline?
+                  </Box>
+                  <AccordionIcon color={"black"} />
+                </AccordionButton>
+              </h2>
+              <AccordionPanel textAlign="justify" pb={4}>
+                Untuk pertemuan full online dengan durasi minimal 1
+                jam/pertemuan
+              </AccordionPanel>
+            </AccordionItem>
+            <AccordionItem>
+              <h2>
+                <AccordionButton>
+                  <Box
+                    fontSize={20}
+                    color={"black"}
+                    as="span"
+                    flex="1"
+                    textAlign="justify"
+                  >
+                    Kelas ini cocok untuk siapa saja?
+                  </Box>
+                  <AccordionIcon color={"black"} />
+                </AccordionButton>
+              </h2>
+              <AccordionPanel textAlign="justify" pb={4}>
+                Kelas beasiswa cocok untuk adik-adik SMA hingga mahasiswa
+                semester 2, sedangkan program mentoring MBKM cocok untuk
+                mahasiswa semester awal hingga akhir
+              </AccordionPanel>
+            </AccordionItem>
+            <AccordionItem>
+              <h2>
+                <AccordionButton>
+                  <Box
+                    fontSize={20}
+                    color={"black"}
+                    as="span"
+                    flex="1"
+                    textAlign="justify"
+                  >
+                    Apakah jadwal mentoring bisa menyesuaikan?
+                  </Box>
+                  <AccordionIcon color={"black"} />
+                </AccordionButton>
+              </h2>
+              <AccordionPanel textAlign="justify" pb={4}>
+                Pelaksanaan disesuaikan dengan pembukaan program (beasiswa/MBKM)
+                dengan jadwal pertemuan dibagikan setelah kuota kelas terpenuhi
+              </AccordionPanel>
+            </AccordionItem>
+            <AccordionItem>
+              <h2>
+                <AccordionButton>
+                  <Box
+                    fontSize={20}
+                    color={"black"}
+                    as="span"
+                    flex="1"
+                    textAlign="justify"
+                  >
+                    Berapa kuota kelas mentoring tiap kelas?{" "}
+                  </Box>
+                  <AccordionIcon color={"black"} />
+                </AccordionButton>
+              </h2>
+              <AccordionPanel textAlign="justify" pb={4}>
+                Tentu setiap tahun berbeda, untuk info kuota mentoring dapat
+                dilihat melalui media sosial resmi Mardika
+              </AccordionPanel>
+            </AccordionItem>
 
-      <Accordion defaultIndex={[0]} allowMultiple>
-        <AccordionItem>
-          <h2>
-            <AccordionButton>
-              <Box as="span" flex="1" textAlign="left">
-                Section 1 title
-              </Box>
-              <AccordionIcon />
-            </AccordionButton>
-          </h2>
-          <AccordionPanel pb={4}>d;lmf</AccordionPanel>
-        </AccordionItem>
-
-        <AccordionItem>
-          <h2>
-            <AccordionButton>
-              <Box as="span" flex="1" textAlign="left">
-                Section 1 title
-              </Box>
-              <AccordionIcon />
-            </AccordionButton>
-          </h2>
-          <AccordionPanel pb={4}>d;lmf</AccordionPanel>
-        </AccordionItem>
-      </Accordion>
+            <AccordionItem>
+              <h2>
+                <AccordionButton>
+                  <Box
+                    fontSize={20}
+                    color={"black"}
+                    as="span"
+                    flex="1"
+                    textAlign="justify"
+                  >
+                    Apakah bebas konsultasi selama mentoring berlangsung?
+                  </Box>
+                  <AccordionIcon color={"black"} />
+                </AccordionButton>
+              </h2>
+              <AccordionPanel textAlign="justify" pb={4}>
+                Bebas! setiap pertemuan diadakan sesi konsultasi dan progress
+                program
+              </AccordionPanel>
+            </AccordionItem>
+          </Accordion>
+        </div>
+      </div>
     </>
   );
 };

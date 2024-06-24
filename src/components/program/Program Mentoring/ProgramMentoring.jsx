@@ -31,7 +31,9 @@ function ProgramPrice() {
         <div class="section2">
           <div className="subsec">
             <h2 className="mentoringb">Kuota semakin terbatas!</h2>
-            <button className="tomboldaftar">Akses Kelas Mentoring</button>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdYRuWR9DN9JPruw-wurKaIWVQe8yn9-pU4vOitJf1CgCdxXA/viewform">
+              <button className="tomboldaftar">Akses Kelas Mentoring</button>
+            </a>
           </div>
         </div>
       </div>
