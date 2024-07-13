@@ -434,7 +434,7 @@
 .karosel {
   margin-top: 20px;
 }
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 769x) and (max-width: 992px) {
   .wrapperbanner {
     margin: 12px;
     width: 97%;
@@ -517,7 +517,15 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .menuAccordion {
+    font-size: 16px;
+  }
+
+  .submenuAccordion {
+    font-size: 16px;
+  }
+
   .wrapperbanner {
     margin: 11px;
     width: 97%;
@@ -569,7 +577,7 @@
   }
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (min-width: 476px) and (max-width: 575px) {
   .header .header-box .title h1 {
     font-size: 48px;
     margin-left: 9px;
@@ -596,7 +604,7 @@
   }
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (min-width: 371px) and (max-width: 475px) {
   .h6 {
     font-size: 10px;
   }
@@ -677,6 +685,14 @@
   .accordion {
     margin: 0px 10px;
   }
+}
+
+.menuAccordion {
+  font-size: 14px;
+}
+
+.submenuAccordion {
+  font-size: 12px;
 }
 
 .img {

@@ -47,105 +47,115 @@ const Awal = () => {
         <div>
           <Accordion allowToggle defaultIndex={[0]}>
             <AccordionItem>
-              <h2>
+              <span>
                 <AccordionButton>
                   <Box
-                    fontSize={20}
                     color={"black"}
                     as="span"
                     flex="1"
-                    textAlign="justify"
+                    textAlign="left"
+                    className="menuAccordion"
                   >
                     Pertemuan diadakan secara online/offline?
                   </Box>
                   <AccordionIcon color={"black"} />
                 </AccordionButton>
-              </h2>
+              </span>
               <AccordionPanel textAlign="justify" pb={4}>
-                Untuk pertemuan full online dengan durasi minimal 1
-                jam/pertemuan
+                <span className="submenuAccordion">
+                  Untuk pertemuan full online dengan durasi minimal 1
+                  jam/pertemuan
+                </span>
               </AccordionPanel>
             </AccordionItem>
             <AccordionItem>
-              <h2>
+              <span>
                 <AccordionButton>
                   <Box
-                    fontSize={20}
                     color={"black"}
                     as="span"
                     flex="1"
                     textAlign="justify"
+                    className="menuAccordion"
                   >
                     Kelas ini cocok untuk siapa saja?
                   </Box>
                   <AccordionIcon color={"black"} />
                 </AccordionButton>
-              </h2>
+              </span>
               <AccordionPanel textAlign="justify" pb={4}>
-                Kelas beasiswa cocok untuk adik-adik SMA hingga mahasiswa
-                semester 2, sedangkan program mentoring MBKM cocok untuk
-                mahasiswa semester awal hingga akhir
+                <span className="submenuAccordion">
+                  Kelas beasiswa cocok untuk adik-adik SMA hingga mahasiswa
+                  semester 2, sedangkan program mentoring MBKM cocok untuk
+                  mahasiswa semester awal hingga akhir{" "}
+                </span>
               </AccordionPanel>
             </AccordionItem>
             <AccordionItem>
-              <h2>
+              <span>
                 <AccordionButton>
                   <Box
-                    fontSize={20}
                     color={"black"}
                     as="span"
                     flex="1"
                     textAlign="justify"
+                    className="menuAccordion"
                   >
                     Apakah jadwal mentoring bisa menyesuaikan?
                   </Box>
                   <AccordionIcon color={"black"} />
                 </AccordionButton>
-              </h2>
+              </span>
               <AccordionPanel textAlign="justify" pb={4}>
-                Pelaksanaan disesuaikan dengan pembukaan program (beasiswa/MBKM)
-                dengan jadwal pertemuan dibagikan setelah kuota kelas terpenuhi
+                <span className="submenuAccordion">
+                  Pelaksanaan disesuaikan dengan pembukaan program
+                  (beasiswa/MBKM) dengan jadwal pertemuan dibagikan setelah
+                  kuota kelas terpenuhi
+                </span>
               </AccordionPanel>
             </AccordionItem>
             <AccordionItem>
-              <h2>
+              <span>
                 <AccordionButton>
                   <Box
-                    fontSize={20}
                     color={"black"}
                     as="span"
                     flex="1"
                     textAlign="justify"
+                    className="menuAccordion"
                   >
                     Berapa kuota kelas mentoring tiap kelas?{" "}
                   </Box>
                   <AccordionIcon color={"black"} />
                 </AccordionButton>
-              </h2>
+              </span>
               <AccordionPanel textAlign="justify" pb={4}>
-                Tentu setiap tahun berbeda, untuk info kuota mentoring dapat
-                dilihat melalui media sosial resmi Mardika
+                <span className="submenuAccordion">
+                  Tentu setiap tahun berbeda, untuk info kuota mentoring dapat
+                  dilihat melalui media sosial resmi Mardika
+                </span>
               </AccordionPanel>
             </AccordionItem>
-
             <AccordionItem>
-              <h2>
+              <span>
                 <AccordionButton>
                   <Box
-                    fontSize={20}
                     color={"black"}
                     as="span"
                     flex="1"
                     textAlign="justify"
+                    className="menuAccordion"
                   >
                     Apakah bebas konsultasi selama mentoring berlangsung?
                   </Box>
                   <AccordionIcon color={"black"} />
                 </AccordionButton>
-              </h2>
+              </span>
               <AccordionPanel textAlign="justify" pb={4}>
-                Bebas! setiap pertemuan diadakan sesi konsultasi dan progress
-                program
+                <span className="submenuAccordion">
+                  Bebas! setiap pertemuan diadakan sesi konsultasi dan progress
+                  program
+                </span>
               </AccordionPanel>
             </AccordionItem>
           </Accordion>
